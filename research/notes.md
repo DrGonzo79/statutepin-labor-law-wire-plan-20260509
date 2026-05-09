@@ -27,4 +27,4 @@ Source: public IdeaBrowser idea page and Idea of the Day summary, dated 2026-05-
 
 ## Sanitization notes
 
-This repository intentionally excludes unsubscribe links, private email headers, message metadata, tracking parameters, and any raw paid/private scrape. The details above are summarized from the public idea page and the allowed daily email content.
+This repository intentionally excludes private email-management links, private email headers, message metadata, tracking parameters, and any raw paid/private scrape. The details above are summarized from the public idea page and the allowed daily email content.
