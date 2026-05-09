@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Statutepin — Labor Law Wire</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand"><span class="pin">§</span> Statutepin</div>
+      <div class="links">
+        <a href="docs/PRD.md">PRD</a>
+        <a href="docs/CEO_REVIEW.md">CEO Review</a>
+        <a href="research/notes.md">Research</a>
+      </div>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Labor Law Wire · Idea of the Day build plan</p>
+        <h1>Reviewed labor-law alerts before the next payroll cycle.</h1>
+        <p class="lede">Statutepin watches official wage, leave, sick-time, scheduling, and notice changes across the jurisdictions where remote teams hire — then gives HR a Slack alert, action checklist, and audit trail.</p>
+        <div class="cta-row">
+          <a class="button primary" href="docs/ROADMAP.md">View 90-day roadmap</a>
+          <a class="button" href="docs/OFFICE_HOURS.md">Office Hours diagnostic</a>
+        </div>
+      </div>
+      <aside class="score-card">
+        <div class="score"><strong>9</strong><span>Opportunity</span></div>
+        <div class="score"><strong>9</strong><span>Problem pain</span></div>
+        <div class="score"><strong>6</strong><span>Build difficulty</span></div>
+        <div class="score"><strong>8</strong><span>Why now</span></div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <div class="section-title">
+        <p class="eyebrow">Prototype dashboard</p>
+        <h2>Today’s compliance command center</h2>
+      </div>
+      <div class="dashboard-grid">
+        <div class="panel alert-panel">
+          <div class="panel-head"><span class="red-dot"></span><strong>Critical alert</strong><span>CA · Wage/hour</span></div>
+          <h3>Minimum salary threshold update may affect 14 exempt employees</h3>
+          <p>Official source changed 6 hours ago. Reviewer approved checklist with 92% extraction confidence and source citation.</p>
+          <ul class="checklist">
+            <li>Confirm employee locations and exemption classes</li>
+            <li>Send payroll rule update to Gusto admin</li>
+            <li>Notify counsel if salary bands are below threshold</li>
+          </ul>
+          <button id="assignBtn">Assign to Maya Chen</button>
+        </div>
+        <div class="panel map-panel">
+          <h3>Jurisdiction risk map</h3>
+          <div class="state-list">
+            <div><span class="risk high"></span> California <strong>3 open</strong></div>
+            <div><span class="risk med"></span> New York <strong>1 due soon</strong></div>
+            <div><span class="risk med"></span> Washington <strong>2 watching</strong></div>
+            <div><span class="risk low"></span> Colorado <strong>clear</strong></div>
+            <div><span class="risk low"></span> Illinois <strong>clear</strong></div>
+          </div>
+        </div>
+        <div class="panel kpi-panel">
+          <h3>Pilot KPIs</h3>
+          <div class="kpis">
+            <div><strong>18h</strong><span>source → alert SLA</span></div>
+            <div><strong>76%</strong><span>alert acknowledgement</span></div>
+            <div><strong>42</strong><span>audit events logged</span></div>
+            <div><strong>$299</strong><span>basic monthly</span></div>
+          </div>
+        </div>
+        <div class="panel timeline-panel">
+          <h3>Audit timeline</h3>
+          <ol id="timeline">
+            <li><b>09:12</b> Source snapshot captured</li>
+            <li><b>09:31</b> LLM detected material wage update</li>
+            <li><b>10:04</b> Reviewer approved HR checklist</li>
+            <li><b>10:06</b> Slack alert delivered to #people-ops</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div class="section-title"><p class="eyebrow">Key workflow</p><h2>From official source to HR action</h2></div>
+      <div class="steps">
+        <article><span>1</span><h3>Monitor</h3><p>Fetch official legislative and agency pages for covered jurisdictions. Store immutable snapshots and feed-health status.</p></article>
+        <article><span>2</span><h3>Extract</h3><p>Classify labor-law changes and extract dates, affected employers, penalties, and action requirements using cited source text.</p></article>
+        <article><span>3</span><h3>Review</h3><p>Human reviewers approve or edit every summary until accuracy clears 95% across 100 consecutive alerts.</p></article>
+        <article><span>4</span><h3>Act</h3><p>Slack/email alerts create owned checklist tasks and a legal-ready audit trail.</p></article>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <div class="section-title"><p class="eyebrow">Offer ladder</p><h2>Designed for the midnight HR scroll</h2></div>
+      <div class="plans">
+        <article><p class="tag">Lead magnet</p><h3>Compliance Quick-Scan</h3><p class="price">Free</p><p>PDF checkup for your current state footprint and next likely compliance blind spots.</p></article>
+        <article class="featured"><p class="tag">Basic</p><h3>5-state alert wire</h3><p class="price">$299/mo</p><p>Email + Slack alerts, reviewed summaries, checklist templates, and audit dashboard for up to five states.</p></article>
+        <article><p class="tag">Pro</p><h3>10 states + HRIS sync</h3><p class="price">$499/mo</p><p>BambooHR/CSV employee-location sync, advanced routing, and expanded jurisdiction coverage.</p></article>
+      </div>
+    </section>
+
+    <section class="signals">
+      <div class="section-title"><p class="eyebrow">Market signals</p><h2>Why the wedge is credible</h2></div>
+      <div class="signal-grid">
+        <div><strong>8.1K</strong><span>“Employment law compliance” volume</span></div>
+        <div><strong>+3757%</strong><span>keyword growth signal</span></div>
+        <div><strong>60.5K</strong><span>“Employee labor laws” volume</span></div>
+        <div><strong>9/10</strong><span>GTM signal score</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Public build plan. Statutepin is a prototype concept, not legal advice.</p>
+    <p><a href="README.md">README</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/RISKS.md">Risks</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

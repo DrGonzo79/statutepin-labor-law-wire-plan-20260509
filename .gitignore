@@ -1,0 +1,15 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies/builds
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# Local artifacts
+*.log
+.cache/
